@@ -1,0 +1,34 @@
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    width: 100%;
+    --colorhover--:#66a182
+}
+.header{
+    width: 100%;
+}
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.header__container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #e1e1e1;
+}
+.header__container-box{
+    display: flex;
+    flex-direction: row;
+    border-right: 1px #e1e1e1 solid;
+}
+.headerbox{
+    padding: 10px 35px;
+    border-left: 1px #e1e1e1 solid;
+}
+.headerbox:hover{
+    color: var(--colorhover--);
+    transition: ease-in 0.3s;
+    cursor: pointer;
+}
