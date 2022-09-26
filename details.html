@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styledetail.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <header>
+       <div class="container_">
+        <div class="container">
+          <div class="header__container">
+            <div class="header__container-box">
+                <div class="login headerbox">Đăng Nhập</div>
+                <div class="register headerbox">Đăng Ký</div>
+            </div>
+            <div class="header__container-box">
+                <div class="giude headerbox">Hướng Dẫn</div>
+                <div class="order headerbox">Đơn Hàng</div>
+            </div>
+        </div>
+        </div>
+
+        
+
+        <div class="header__tapbar">
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+           <div class="container">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="mynavbar">
+                <a class="navbar-brand" href="javascript:void(0)">ShopVD</a>
+
+                <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0)">Trang Chủ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0)">Giới Thiệu</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" href="javascript:void(0)">Sản Phẩm</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Link</a></li>
+                        <li><a class="dropdown-item" href="#">Another link</a></li>
+                        <li><a class="dropdown-item" href="#">A third link</a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0)">Tin Tức</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0)">Liên Hệ</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="text" placeholder="Search">
+                  <button class="btn btn-primary" type="button">Search</button>
+                </form>
+              </div>
+            </div>
+           </div>
+              </nav>
+        </div>
+       </div>
+    </header>
+    <div class="container">
+      <div class="card">
+        <div class="container-fliud">
+          <div class="wrapper row">
+            <div class="preview col-md-6">
+              
+              <div class="preview-pic tab-content">
+                <div class="tab-pane active" id="pic-1"><img src="http://placekitten.com/400/252" /></div>
+                <div class="tab-pane" id="pic-2"><img src="http://placekitten.com/400/252" /></div>
+                <div class="tab-pane" id="pic-3"><img src="http://placekitten.com/400/252" /></div>
+                <div class="tab-pane" id="pic-4"><img src="http://placekitten.com/400/252" /></div>
+                <div class="tab-pane" id="pic-5"><img src="http://placekitten.com/400/252" /></div>
+              </div>
+              <ul class="preview-thumbnail nav nav-tabs">
+                <li class="active"><a data-target="#pic-1" data-toggle="tab"><img src="http://placekitten.com/200/126" /></a></li>
+                <li><a data-target="#pic-2" data-toggle="tab"><img src="http://placekitten.com/200/126" /></a></li>
+                <li><a data-target="#pic-3" data-toggle="tab"><img src="http://placekitten.com/200/126" /></a></li>
+                <li><a data-target="#pic-4" data-toggle="tab"><img src="http://placekitten.com/200/126" /></a></li>
+                <li><a data-target="#pic-5" data-toggle="tab"><img src="http://placekitten.com/200/126" /></a></li>
+              </ul>
+              
+            </div>
+            <div class="details col-md-6">
+              <h3 class="product-title">Áo thun Mèo</h3>
+              <div class="rating">
+                <div class="stars">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </div>
+                <span class="review-no"><i class="bi bi-eye"></i>41 reviews</span>
+              </div>
+              <p class="product-description">Áo mặc không thoáng mát dễ rách không đổi trả</p>
+              <h4 class="price"> price: <span>$180</span></h4>
+              <p class="vote"><strong>91%</strong> of buyers enjoyed this product! <strong>(87 votes)</strong></p>
+              <h5 class="sizes">sizes:
+                <span class="size" data-toggle="tooltip" title="small">s</span>
+                <span class="size" data-toggle="tooltip" title="medium">m</span>
+                <span class="size" data-toggle="tooltip" title="large">l</span>
+                <span class="size" data-toggle="tooltip" title="xtra large">xl</span>
+              </h5>
+              <h5 class="colors">colors:
+                <span class="color orange not-available" data-toggle="tooltip" title="Not In store"></span>
+                <span class="color green"></span>
+                <span class="color blue"></span>
+              </h5>
+              <div class="action">
+                <button class="add-to-cart btn btn-default" type="button">add to cart</button>
+                <button class="like btn btn-default" type="button"><i class="bi bi-heart-fill"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+        <div class="container">
+          <div class="row footer">
+            <div class="col-sm-4">logo</div>
+            <div class="col-sm-8 footer-right">
+              <div class="row">
+                <div class="col-sm-3">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item footer-item active">Tai Khoang</li>
+                    <li class="list-group-item footer-item">A second item</li>
+                    <li class="list-group-item footer-item">A third item</li>
+                    <li class="list-group-item footer-item">A fourth item</li>
+                    <li class="list-group-item footer-item">And a fifth one</li>
+                  </ul>
+                </div>
+                <div class="col-sm-3">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item footer-item active">Chinh Sach</li>
+                    <li class="list-group-item footer-item">A second item</li>
+                    <li class="list-group-item footer-item">A third item</li>
+                    <li class="list-group-item footer-item">A fourth item</li>
+                    <li class="list-group-item footer-item">And a fifth one</li>
+                  </ul>
+                </div>
+                
+                <div class="col-sm-3">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item footer-item active">Dieu Khoang</li>
+                    <li class="list-group-item footer-item">A second item</li>
+                    <li class="list-group-item footer-item">A third item</li>
+                    <li class="list-group-item footer-item">A fourth item</li>
+                    <li class="list-group-item footer-item">And a fifth one</li>
+                  </ul>
+                </div>
+                
+                <div class="col-sm-3">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item footer-item active">Huong Dan</li>
+                    <li class="list-group-item footer-item">A second item</li>
+                    <li class="list-group-item footer-item">A third item</li>
+                    <li class="list-group-item footer-item">A fourth item</li>
+                    <li class="list-group-item footer-item">And a fifth one</li>
+                  </ul>
+                </div>
+                
+                
+  
+              
+              </div>
+            </div>
+  
+          </div>
+        </div>
+      </footer>
+  
